@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "website_time_track",
+  "version": "0.1",
+  "author": "kanishk",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Tracking..."
+  },
+  "permissions": ["tabs", "activeTab", "storage", "http://*/*", "https://*/*", "chrome*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [ {
+    "matches": ["http://*/*", "https://*/*"], 
+    "js": ["jquery.js", "content.js"]
+  }]
+}
