@@ -1,6 +1,0 @@
-https://www.python.org/
-https://en.wikipedia.org/wiki/Ultimate_(sport)
-https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0
-https://machinelearningmastery.com/what-is-deep-learning/
-https://en.wikipedia.org/wiki/Tennis
-https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
