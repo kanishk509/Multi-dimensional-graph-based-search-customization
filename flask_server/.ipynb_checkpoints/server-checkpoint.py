@@ -25,6 +25,7 @@ skip_domains = [
     'www.account.google.com',
     'www.facebook.com',  
     'www.docs.google.com'
+	'www.google.com'
 ]
 
 def isIP(str):
